@@ -6,11 +6,19 @@ deve exibir na tela a posição e a vogal encontrada,
 conforme os exemplos de execução abaixo. Você pode assumir 
 que caracteres com acento não serão fornecidos como entrada.
 
-Observação: as mensagens exibidas para o usuário deverão ser 
-exatamente como apresentado abaixo (mensagens exibidas com os 
-comandos input() e print()).
-
 Exemplo de execução do programa:
 
-The book is on the table 2 e 5 o 6 o 9 i 12 o 17 e 20 a 23 e
+The book is on the table: 2 e 5 o 6 o 9 i 12 o 17 e 20 a 23 e
 """
+
+# entrada
+frase = input("Digite aqui sua mensagem: ").upper()
+
+vogais = "AEIOU"
+contagem = {}
+
+for letra in frase.upper():
+    if letra in vogais:
+        contagem[letra] = contagem.get(letra, 0) + 1
+
+print(contagem)

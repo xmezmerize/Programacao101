@@ -13,10 +13,6 @@ números inteiros (pode assumir que eles não têm o algarismo
 zero), some os mesmos e, caso o resultado tenha algum algarismo 
 zero, então os retire antes de imprimir na tela.
 
-Observação: as mensagens exibidas para o usuário deverão ser 
-exatamente como apresentado abaixo (mensagens exibidas com os 
-comandos input() e print()).
-
 Exemplo de execução do programa:
 
 Digite o primeiro número: 7 
@@ -29,3 +25,18 @@ Digite o primeiro número: 99
 Digite o segundo número: 6 
 Resultado: 15
 """
+
+# entrada
+numero1 = int(input("Digite um número inteiro: "))
+numero2 = int(input("Digite um 2º número inteiro: "))
+
+# processamento
+num1_replace = str(numero1).replace("0", "")
+num2_replace = str(numero2).replace("0", "")
+
+str_to_num1 = int(num1_replace)
+str_to_num2 = int(num2_replace)
+
+soma = str_to_num1 + str_to_num2
+
+print(f"Resultado: {soma}")
