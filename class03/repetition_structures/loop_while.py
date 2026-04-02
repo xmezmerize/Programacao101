@@ -1,4 +1,4 @@
-# while (enquanto)
+# while (enquanto) -> enquanto uma condição for verdadeira esse loop continua executando seu fluxo
 
 contador = 0
 

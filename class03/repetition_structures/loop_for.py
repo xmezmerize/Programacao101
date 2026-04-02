@@ -1,4 +1,4 @@
-# Loop for (para cada)
+# Loop for (para cada) -> esse loop serve quando precisamos passar por todos os elementos de um conjunto ou coleção.
 
 # range
 for num in range(5,10, 2): # de 5 até 10 pulando de 2 em 2

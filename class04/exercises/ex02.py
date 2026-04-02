@@ -1,4 +1,4 @@
-# 2 - Soma de matrizes
+# 2. Soma de matrizes
 
 def soma_matrizes(matriz1, matriz2):
     return [

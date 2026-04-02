@@ -1,4 +1,4 @@
-# 3 - Sistema de cadastro de alunos e notas
+# 3. Sistema de cadastro de alunos e notas
 
 alunos = {}
 

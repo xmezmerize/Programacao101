@@ -1,12 +1,4 @@
-"""
-Salário
-
-Vamos receber (input) dos números do usuário e guardar nas 
-variáveis "numero1" e "numero2". A 1º será o valor que o
-empregado recebe por hora trabalhada e o 2º o número de 
-horas. Calcule o valor total e coloque na variável 
-"salario", considerando que o mês tem 30 dias.
-"""
+# 2
 
 # entrada
 numero1 = float(input("Quanto você recebe por hora trabalhada? "))
